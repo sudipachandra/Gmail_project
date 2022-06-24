@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.sudipa.qaautomation.TestGmail
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.354 sec <<< FAILURE!
+testGmail(com.sudipa.qaautomation.TestGmail)  Time elapsed: 15.788 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "automationt691". Current title: "Gmail" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'Sudipas-MacBook-Pro.local', ip: 'fe80:0:0:0:18ad:446f:45a1:3214%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/xv/r74j6l0544s...}, goog:chromeOptions: {debuggerAddress: localhost:63838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63838/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 010d0a642ad8212d8c0343b59198956d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.sudipa.qaautomation.pages.GoogleAccountPage.login(GoogleAccountPage.java:34)
+	at com.sudipa.qaautomation.TestGmail.testGmail(TestGmail.java:20)
+

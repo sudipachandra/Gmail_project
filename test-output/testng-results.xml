@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20217" started-at="2022-06-24T12:07:55 IST" finished-at="2022-06-24T12:08:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20217" started-at="2022-06-24T12:07:55 IST" finished-at="2022-06-24T12:08:15 IST">
+      <class name="com.sudipa.qaautomation.TestGmail">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sudipa.qaautomation.TestGmail@615091b8]" name="launchBrowser" is-config="true" duration-ms="1534" started-at="2022-06-24T12:07:55 IST" finished-at="2022-06-24T12:07:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testGmail()[pri:0, instance:com.sudipa.qaautomation.TestGmail@615091b8]" name="testGmail" duration-ms="18556" started-at="2022-06-24T12:07:57 IST" finished-at="2022-06-24T12:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmail -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.sudipa.qaautomation.TestGmail@615091b8]" name="quitDriver" is-config="true" duration-ms="113" started-at="2022-06-24T12:08:15 IST" finished-at="2022-06-24T12:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.sudipa.qaautomation.TestGmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

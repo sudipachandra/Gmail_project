@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.sudipa.qaautomation.TestGmail]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.sudipa.qaautomation.TestGmail">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="testGmail"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.sudipa.qaautomation.TestGmail -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.sudipa.qaautomation.TestGmail] -->
